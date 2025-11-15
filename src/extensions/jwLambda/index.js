@@ -47,7 +47,7 @@ class LambdaType {
         return new LambdaType()
     }
 
-    jwArrayHandler(expectsPlainString, context) {
+    jwArrayHandler() {
         return 'Lambda'
     }
 

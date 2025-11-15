@@ -33,7 +33,7 @@ class NumType {
         return new NumType(x)
     }
 
-    jwArrayHandler(expectsPlainString, context) {
+    jwArrayHandler() {
         return this.number.toStringWithDecimalPlaces(3)
     }
 

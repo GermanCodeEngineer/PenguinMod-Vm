@@ -89,9 +89,7 @@ class ColorType {
         return this.fromRGB(r, g, b)
     }
 
-    jwArrayHandler(expectsPlainString, context) {
-        if (expectsPlainString) return this.toString()
-        
+    jwArrayHandler() {
         let color = document.createElement('div')
         color.style.width = "16px"
         color.style.height = "16px"

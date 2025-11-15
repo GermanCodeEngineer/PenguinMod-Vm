@@ -39,8 +39,7 @@ class jwTargetType {
         return new jwTargetType("")
     }
 
-    jwArrayHandler(expectsPlainString, context) {
-        // always a string
+    jwArrayHandler() {
         try {
             return escapeHTML(`Target<${this.target.sprite.name}>`)
         } catch {
